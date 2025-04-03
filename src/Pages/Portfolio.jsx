@@ -244,8 +244,8 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <a href="#about" className={`p-2 rounded-full shadow-md ${darkMode ? 'bg-gray-800 text-purple-400' : 'bg-white text-purple-600'}`}>
-            <ChevronDown className="w-6 h-6" />
+          <a href="#about" className={`p-2 rounded-lg shadow-md ${darkMode ? 'bg-gray-800 text-purple-400' : 'bg-white text-purple-600'}`}>
+            About
           </a>
         </div>
       </section>
@@ -508,43 +508,149 @@ const Portfolio = () => {
 
       {/* Contact Section */}
       <section id="contact" className={`py-20 ${
-        darkMode 
-          ? 'bg-gradient-to-br from-gray-900 via-purple-900/30 to-gray-900' 
-          : 'bg-gradient-to-br from-purple-50 to-indigo-100'}`}>
-        <div className="container mx-auto px-4">
-          <h2 className={`text-3xl md:text-4xl font-bold text-center mb-16 ${darkMode ? 'text-white' : 'text-gray-800'}`}>
-            Get In Touch
-          </h2>
-          <div className={`max-w-4xl mx-auto rounded-lg shadow-2xl overflow-hidden ${
-            darkMode ? 'bg-gray-800' : 'bg-white'}`}>
-            <div className="flex flex-col md:flex-row">
-              <div className="md:w-1/2 p-8 md:p-12 bg-gradient-to-br from-purple-600 to-indigo-700 text-white">
-                <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
-                <div className="space-y-6">
-                  <div className="flex items-center group">
-                    <Mail className="w-6 h-6 mr-3 group-hover:scale-110 transition-transform duration-300" />
-                    <a href="mailto:sushindh.anandan@gmail.com" className="hover:underline">
-                      sushindh.anandan@gmail.com
-                    </a>
-                  </div>
-                  <div className="flex items-center group">
-                    <Linkedin className="w-6 h-6 mr-3 group-hover:scale-110 transition-transform duration-300" />
-                    <a href="https://linkedin.com/in/sushindh-a" target="_blank" rel="noopener noreferrer" className="hover:underline">
-                      linkedin.com/in/sushindh-a
-                    </a>
-                  </div>
-                  <div className="flex items-center group">
-                    <Github className="w-6 h-6 mr-3 group-hover:scale-110 transition-transform duration-300" />
-                    <a href="https://github.com/Sushindh" target="_blank" rel="noopener noreferrer" className="hover:underline">
-                      github.com/Sushindh
-                    </a>
-                  </div>
-                </div>
+  darkMode 
+    ? 'bg-gradient-to-br from-gray-900 via-purple-900/30 to-gray-900'
+    : 'bg-gradient-to-br from-purple-50 to-indigo-100'}`}>
+  <div className="container mx-auto px-4">
+    <h2 className={`text-3xl md:text-4xl font-bold text-center mb-16 ${darkMode ? 'text-white' : 'text-gray-800'}`}>
+      Get In Touch
+    </h2>
+    
+    <div className={`max-w-4xl mx-auto rounded-lg shadow-2xl overflow-hidden ${
+      darkMode ? 'bg-gray-800' : 'bg-white'}`}>
+      <div className="flex flex-col md:flex-row">
+        {/* Contact Info Side */}
+        <div className={`md:w-1/2 p-8 md:p-12 ${
+          darkMode 
+            ? 'bg-gradient-to-br from-purple-800 to-indigo-900' 
+            : 'bg-gradient-to-br from-purple-600 to-indigo-700'
+        } text-white`}>
+          <h3 className="text-2xl font-semibold mb-8">Contact Information</h3>
+          <div className="space-y-8">
+            <div className="flex items-center group">
+              <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center mr-4 group-hover:bg-white/30 transition-all duration-300">
+                <Mail className="w-5 h-5 text-white" />
+              </div>
+              <div>
+                <p className="text-sm text-purple-200 mb-1">Email</p>
+                <a href="mailto:sushindh.anandan@gmail.com" className="hover:underline transition-all duration-300">
+                  sushindh.anandan@gmail.com
+                </a>
               </div>
             </div>
+            
+            <div className="flex items-center group">
+              <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center mr-4 group-hover:bg-white/30 transition-all duration-300">
+                <Linkedin className="w-5 h-5 text-white" />
+              </div>
+              <div>
+                <p className="text-sm text-purple-200 mb-1">LinkedIn</p>
+                <a href="https://www.linkedin.com/in/sushindh-a-7281a1288/" target="_blank" rel="noopener noreferrer" className="hover:underline transition-all duration-300">
+                  linkedin.com/in/sushindh-a
+                </a>
+              </div>
             </div>
+            
+            <div className="flex items-center group">
+              <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center mr-4 group-hover:bg-white/30 transition-all duration-300">
+                <Github className="w-5 h-5 text-white" />
+              </div>
+              <div>
+                <p className="text-sm text-purple-200 mb-1">GitHub</p>
+                <a href="https://github.com/Sushindh" target="_blank" rel="noopener noreferrer" className="hover:underline transition-all duration-300">
+                  github.com/Sushindh
+                </a>
+              </div>
             </div>
-            </section>
+          </div>
+          
+          <div className="mt-12">
+            <h4 className="text-lg font-medium mb-4">Connect With Me</h4>
+            <div className="flex space-x-4">
+              <a href="https://www.linkedin.com/in/sushindh-a-7281a1288/" target="_blank" rel="noopener noreferrer" 
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/30 transition-all duration-300">
+                <Linkedin className="w-5 h-5" />
+              </a>
+              <a href="https://github.com/Sushindh" target="_blank" rel="noopener noreferrer" 
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/30 transition-all duration-300">
+                <Github className="w-5 h-5" />
+              </a>
+              <a href="mailto:sushindh.anandan@gmail.com" 
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/30 transition-all duration-300">
+                <Mail className="w-5 h-5" />
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        {/* Contact Form Side */}
+        <div className={`md:w-1/2 p-8 md:p-12 ${darkMode ? 'bg-gray-800 text-gray-200' : 'bg-white text-gray-800'}`}>
+          <h3 className={`text-2xl font-semibold mb-6 ${darkMode ? 'text-white' : 'text-gray-800'}`}>Send Me a Message</h3>
+          <form className="space-y-6">
+            <div>
+              <label htmlFor="name" className={`block text-sm font-medium mb-2 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
+                Your Name
+              </label>
+              <input
+                type="text"
+                id="name"
+                className={`w-full px-4 py-2 rounded-lg focus:ring-2 focus:outline-none ${
+                  darkMode 
+                    ? 'bg-gray-700 border-gray-600 focus:ring-purple-500 text-white' 
+                    : 'bg-gray-50 border border-gray-300 focus:ring-purple-500'
+                }`}
+                placeholder="Arun Kumar"
+              />
+            </div>
+            
+            <div>
+              <label htmlFor="email" className={`block text-sm font-medium mb-2 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
+                Email Address
+              </label>
+              <input
+                type="email"
+                id="email"
+                className={`w-full px-4 py-2 rounded-lg focus:ring-2 focus:outline-none ${
+                  darkMode 
+                    ? 'bg-gray-700 border-gray-600 focus:ring-purple-500 text-white' 
+                    : 'bg-gray-50 border border-gray-300 focus:ring-purple-500'
+                }`}
+                placeholder="xyz@gmail.com"
+              />
+            </div>
+            
+            <div>
+              <label htmlFor="message" className={`block text-sm font-medium mb-2 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
+                Message
+              </label>
+              <textarea
+                id="message"
+                rows="4"
+                className={`w-full px-4 py-2 rounded-lg focus:ring-2 focus:outline-none ${
+                  darkMode 
+                    ? 'bg-gray-700 border-gray-600 focus:ring-purple-500 text-white' 
+                    : 'bg-gray-50 border border-gray-300 focus:ring-purple-500'
+                }`}
+                placeholder="Your message here..."
+              ></textarea>
+            </div>
+            
+            <button
+              type="submit"
+              className={`px-6 py-3 rounded-lg font-medium text-white transition-all duration-300 ${
+                darkMode 
+                  ? 'bg-purple-600 hover:bg-purple-700' 
+                  : 'bg-purple-600 hover:bg-purple-700'
+              } w-full md:w-auto`}
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
             </div>
   )}
 
