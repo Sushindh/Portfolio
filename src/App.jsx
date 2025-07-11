@@ -277,22 +277,6 @@ const Portfolio = () => {
               </p>
             </div>
 
-            {/* GirlScript Experience */}
-            <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-green-500/50 transition-all duration-300">
-              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                <div>
-                  <h3 className="text-xl font-semibold text-green-400">Contributor</h3>
-                  <p className="text-gray-300">GirlScript Summer of Code</p>
-                </div>
-                <span className="text-gray-400 bg-gray-700 px-3 py-1 rounded-full text-sm mt-2 md:mt-0">
-                  September 2024 - November 2024
-                </span>
-              </div>
-              <p className="text-gray-300">
-                Contributed to open-source projects, collaborated with developers worldwide, and gained experience in collaborative development workflows.
-              </p>
-            </div>
-
             {/* Newton School Experience */}
             <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-yellow-500/50 transition-all duration-300">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
