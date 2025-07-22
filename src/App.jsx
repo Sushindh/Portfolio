@@ -265,16 +265,19 @@ const Portfolio = () => {
                   February 2025 - Present
                 </span>
               </div>
-              <div className="mb-4">
-                <h4 className="text-lg font-medium text-purple-300 mb-2">Web Development Team Member</h4>
-                <span className="text-gray-400 text-sm">June 2024 - Present (1 year 2 months)</span>
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                <div>
+                  <h3 className="text-xl font-semibold text-purple-400">Web Development Team Member</h3>
+                  <p className="text-gray-300">CodeChef VIT-Chennai Chapter</p>
+                </div>
+                <span className="text-gray-400 bg-gray-700 px-3 py-1 rounded-full text-sm mt-2 md:mt-0">
+                  June 2024 - Present (1 year 2 months)
+                </span>
+                <p className="text-gray-300">
+                  Designing, developing, and maintaining websites to ensure seamless user experience. <br/>
+                  Collaborating with team members to implement innovative web solutions and optimize site performance.
+                </p>
               </div>
-              <p className="text-gray-300">
-                Designing, developing, and maintaining websites to ensure seamless user experience. 
-                Collaborating with team members to implement innovative web solutions and optimize site performance.
-              </p>
-            </div>
-
             {/* Newton School Experience */}
             <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-yellow-500/50 transition-all duration-300">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
