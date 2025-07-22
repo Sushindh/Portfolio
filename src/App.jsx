@@ -396,6 +396,22 @@ const Portfolio = () => {
                 )}
               </div>
             ))}
+            <div className="mt-1 text-center">
+              <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-blue-500/50 transition-all duration-300 transform hover:scale-105 h-[467px] ">
+                <h4 className="text-xl font-semibold text-blue-400 mb-3">Stay Tuned! 🚀</h4>
+                <p className="text-gray-300 mb-4">
+                  I'm constantly working on new projects and exploring cutting-edge technologies. 
+                  Follow my GitHub for the latest updates and releases.
+                </p>
+                <a 
+                  href="https://github.com/sushindh" 
+                  className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105"
+                >
+                  <Github size={20} />
+                  Follow on GitHub
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
