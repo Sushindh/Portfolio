@@ -235,60 +235,94 @@ const Portfolio = () => {
           <div className="space-y-8">
             {/* C-DAC Experience */}
             <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-blue-500/50 transition-all duration-300">
-              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                <div>
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+                <div className="flex-1">
                   <h3 className="text-xl font-semibold text-blue-400">DevOps Intern</h3>
                   <p className="text-gray-300">Centre for Development of Advanced Computing (C-DAC), Chennai, Tamil Nadu</p>
                 </div>
-                <span className="text-gray-400 bg-gray-700 px-3 py-1 rounded-full text-sm mt-2 md:mt-0">
+                <span className="text-gray-400 bg-gray-700 px-3 py-1 rounded-full text-sm mt-2 md:mt-0 self-start">
                   May 2025 – June 2025
                 </span>
               </div>
-              <ul className="space-y-2 text-gray-300">
-                <li className="flex items-start gap-2">
-                  Engineered observability pipelines for containerized Python applications using Docker, OpenTelemetry, and Grafana Alloy stack (Loki, Tempo, Prometheus).
+              <ul className="space-y-3 text-gray-300">
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></span>
+                  <span>Engineered observability pipelines for containerized Python applications using Docker, OpenTelemetry, and Grafana Alloy stack (Loki, Tempo, Prometheus).</span>
                 </li>
-                <li className="flex items-start gap-2">
-                  Instrumented real-time telemetry across multiple applications, enabling performance monitoring and efficient debugging via distributed tracing.
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></span>
+                  <span>Instrumented real-time telemetry across multiple applications, enabling performance monitoring and efficient debugging via distributed tracing.</span>
                 </li>
               </ul>
             </div>
 
-            {/* CodeChef Experience */}
+            {/* CodeChef Project Team Experience */}
             <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-purple-500/50 transition-all duration-300">
-              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                <div>
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+                <div className="flex-1">
                   <h3 className="text-xl font-semibold text-purple-400">Project Team Member</h3>
                   <p className="text-gray-300">CodeChef VIT-Chennai Chapter</p>
                 </div>
-                <span className="text-gray-400 bg-gray-700 px-3 py-1 rounded-full text-sm mt-2 md:mt-0">
+                <span className="text-gray-400 bg-gray-700 px-3 py-1 rounded-full text-sm mt-2 md:mt-0 self-start">
                   February 2025 - Present
                 </span>
               </div>
-              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                <div>
-                  <h3 className="text-xl font-semibold text-purple-400">Web Development Team Member</h3>
+              <ul className="space-y-3 text-gray-300">
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></span>
+                  <span>Contributing to innovative project development and technical initiatives within the CodeChef chapter.</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></span>
+                  <span>Collaborating on competitive programming solutions and educational content creation.</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* CodeChef Web Development Experience */}
+            <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-green-500/50 transition-all duration-300">
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+                <div className="flex-1">
+                  <h3 className="text-xl font-semibold text-green-400">Web Development Team Member</h3>
                   <p className="text-gray-300">CodeChef VIT-Chennai Chapter</p>
                 </div>
-                <span className="text-gray-400 bg-gray-700 px-3 py-1 rounded-full text-sm mt-2 md:mt-0">
-                  June 2024 - Present (1 year 2 months)
+                <span className="text-gray-400 bg-gray-700 px-3 py-1 rounded-full text-sm mt-2 md:mt-0 self-start">
+                  June 2024 - Present
                 </span>
-                <p className="text-gray-300">
-                  Designing, developing, and maintaining websites to ensure seamless user experience. <br/>
-                  Collaborating with team members to implement innovative web solutions and optimize site performance.
-                </p>
               </div>
+              <ul className="space-y-3 text-gray-300">
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></span>
+                  <span>Designing, developing, and maintaining websites to ensure seamless user experience.</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></span>
+                  <span>Collaborating with team members to implement innovative web solutions and optimize site performance.</span>
+                </li>
+              </ul>
+            </div>
+
             {/* Newton School Experience */}
             <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-yellow-500/50 transition-all duration-300">
-              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                <div>
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+                <div className="flex-1">
                   <h3 className="text-xl font-semibold text-yellow-400">Design Team Member</h3>
                   <p className="text-gray-300">Newton School Coding Club VITC</p>
                 </div>
-                <span className="text-gray-400 bg-gray-700 px-3 py-1 rounded-full text-sm mt-2 md:mt-0">
+                <span className="text-gray-400 bg-gray-700 px-3 py-1 rounded-full text-sm mt-2 md:mt-0 self-start">
                   January 2024 - May 2025
                 </span>
               </div>
+              <ul className="space-y-3 text-gray-300">
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-yellow-400 rounded-full mt-2 flex-shrink-0"></span>
+                  <span>Created visual content and marketing materials for coding events and workshops.</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-yellow-400 rounded-full mt-2 flex-shrink-0"></span>
+                  <span>Collaborated with technical teams to design user-friendly interfaces and promotional graphics.</span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
