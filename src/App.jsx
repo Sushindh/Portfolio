@@ -246,11 +246,9 @@ const Portfolio = () => {
               </div>
               <ul className="space-y-2 text-gray-300">
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1">•</span>
                   Engineered observability pipelines for containerized Python applications using Docker, OpenTelemetry, and Grafana Alloy stack (Loki, Tempo, Prometheus).
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-blue-400 mt-1">•</span>
                   Instrumented real-time telemetry across multiple applications, enabling performance monitoring and efficient debugging via distributed tracing.
                 </li>
               </ul>
