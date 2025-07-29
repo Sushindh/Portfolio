@@ -245,7 +245,7 @@ const Portfolio = () => {
                   <p className="text-gray-300">Samsung PRISM (Samsung R&D Institute India), Remote</p>
                 </div>
                 <span className="text-gray-400 bg-gray-700 px-3 py-1 rounded-full text-sm mt-2 md:mt-0 self-start">
-                  July 2025 – Ongoing
+                  July 2025 – Present
                 </span>
               </div>
               {/* <ul className="space-y-3 text-gray-300">
