@@ -73,5 +73,5 @@ yarn dev
 💼 LinkedIn: linkedin.com/in/sushindh-a-7281a1288
 
 🖥️ GitHub: github.com/sushindh
----
+
 ⭐ If you found this portfolio helpful or inspiring, consider giving it a star!
