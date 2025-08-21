@@ -158,7 +158,7 @@ const Portfolio = () => {
               <Linkedin size={20} />
               LinkedIn
             </a>
-            <a href="https://drive.google.com/file/d/1uBIxHh-f7ity4ZqPQGS-gPk--6fmzeOn/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105">
+            <a href="https://drive.google.com/file/d/1tG6w8z3QYkpAYcug5Nagd7824S2jvdtA/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105">
               <ExternalLink size={20} />
               View Resume
             </a>
