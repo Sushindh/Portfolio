@@ -137,7 +137,7 @@ const Portfolio = () => {
               Sushindh Anandan
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-6">
-              Aspiring Software Engineer | B.Tech CSE '27 | Intern @ Samsung PRISM<br/>Ex-Intern @ C-DAC
+              Aspiring Software Engineer | Ex-Intern @ C-DAC | Intern @ Samsung PRISM<br/>B.Tech CSE '27
             </p>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto mb-8">
               Full-stack developer passionate about creating impactful solutions with React, FastAPI, and DevOps. 
