@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with React and Tailwind CSS, showca
 
 # 🚀 Live Demo
 
-👉 portfolio-sage-three-42.vercel.app
+👉 [portfolio-sage-three-42.vercel.app](https://portfolio-sage-three-42.vercel.app/)
 
 # 📋 Features
 
