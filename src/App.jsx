@@ -238,8 +238,8 @@ const Portfolio = () => {
           
           <div className="space-y-8">
             {/* Samsung Prism Internship */}
-            {/* <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-blue-500/50 transition-all duration-300"> */}
-              {/* <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+            <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-blue-500/50 transition-all duration-300">
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
                 <div className="flex-1">
                   <h3 className="text-xl font-semibold text-blue-400">Project Intern</h3>
                   <p className="text-gray-300">Samsung PRISM (Samsung R&D Institute India), Remote</p>
@@ -247,7 +247,7 @@ const Portfolio = () => {
                 <span className="text-gray-400 bg-gray-700 px-3 py-1 rounded-full text-sm mt-2 md:mt-0 self-start">
                   July 2025 – Present
                 </span>
-              </div> */}
+              </div>
               {/* <ul className="space-y-3 text-gray-300">
                 <li className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></span>
@@ -258,18 +258,10 @@ const Portfolio = () => {
                   <span>Instrumented real-time telemetry across multiple applications, enabling performance monitoring and efficient debugging via distributed tracing.</span>
                 </li>
               </ul> */}
-            {/* </div> */}
+            </div>
             {/* C-DAC Experience */}
             <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-blue-500/50 transition-all duration-300">
-            <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
-                <div className="flex-1">
-                  <h3 className="text-xl font-semibold text-blue-400">Project Intern</h3>
-                  <p className="text-gray-300">Samsung PRISM (Samsung R&D Institute India), Remote</p>
-                </div>
-                <span className="text-gray-400 bg-gray-700 px-3 py-1 rounded-full text-sm mt-2 md:mt-0 self-start">
-                  July 2025 – Present
-                </span>
-              </div>
+              
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
                 <div className="flex-1">
                   <h3 className="text-xl font-semibold text-blue-400">DevOps Intern</h3>
