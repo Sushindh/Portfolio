@@ -58,7 +58,7 @@ const Navigation = ({ activeSection, setActiveSection, setMobileMenuOpen, mobile
         {/* Desktop Buttons */}
         <div className="hidden md:flex items-center gap-4">
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1X86yfwRvwHWI8i0h-SBdp9bUqdAFG9Ib/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-glow flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white px-4 py-2 rounded-lg font-semibold transition-all"
@@ -66,14 +66,7 @@ const Navigation = ({ activeSection, setActiveSection, setMobileMenuOpen, mobile
             <Download size={18} />
             <span className="hidden lg:inline">Resume</span>
           </a>
-          <a
-            href="https://github.com/sushindh"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-300 hover:text-white transition-colors"
-          >
-            <ExternalLink size={20} />
-          </a>
+          
         </div>
 
         {/* Mobile Menu Button */}
@@ -103,7 +96,7 @@ const Navigation = ({ activeSection, setActiveSection, setMobileMenuOpen, mobile
           ))}
           <div className="pt-4 border-t border-gray-700/30 mt-4 space-y-2">
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1X86yfwRvwHWI8i0h-SBdp9bUqdAFG9Ib/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg font-semibold transition-all"

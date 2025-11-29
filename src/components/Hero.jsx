@@ -31,8 +31,8 @@ const Hero = () => {
             </div>
           </div>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-8 leading-relaxed">
-            Full-stack developer passionate about creating impactful solutions with React, FastAPI, and DevOps. 
-            Exploring AI/ML, Cloud, and building scalable systems.
+            Full-stack developer passionate about creating impactful solutions with React, FastAPI and DevOps. 
+            Exploring AI/ML, Cloud and building scalable systems.
           </p>
         </div>
         
