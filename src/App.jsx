@@ -223,6 +223,20 @@ const Portfolio = () => {
                     View Patent Details
                   </a>
                 </div>
+                <div className="space-y-2">
+                  <p className="font-medium">WEARABLE EYE DROP DISPENSING DEVICE WITH ULTRAVIOLET STERILIZATION AND WIRELESS CONTROL</p>
+                  <p className="text-gray-400">A wearable smart device that automates eye-drop delivery using IR sensors, servo-motor mechanisms, UV-C sterilization, and wireless mobile control for hygienic and precise medication dispensing.</p>
+                  <p className="text-gray-400">Patent ID: 202541108328 | Published Nov 2025</p>
+                  <a 
+                    href="https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/ApplicationStatus"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 text-sm mt-3 transition-colors"
+                  >
+                    <ExternalLink size={16} />
+                    View Patent Details
+                  </a>
+                </div>
               </div>
             </div>
           </div>
