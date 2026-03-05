@@ -39,7 +39,7 @@ const About = () => {
               <div className="space-y-2">
                 <p className="font-medium">Bachelor of Technology - Computer Science</p>
                 <p className="text-gray-400">Vellore Institute of Technology, Chennai</p>
-                <p className="text-gray-400">CGPA: 8.84 | Aug 2023 - July 2027</p>
+                <p className="text-gray-400">CGPA: 8.89 | Aug 2023 - July 2027</p>
               </div>
             </div>
             

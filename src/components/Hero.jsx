@@ -49,7 +49,7 @@ const Hero = () => {
             <Linkedin size={20} className="group-hover:rotate-12 transition-transform" />
             LinkedIn
           </a>
-          <a href="https://drive.google.com/file/d/1X86yfwRvwHWI8i0h-SBdp9bUqdAFG9Ib/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn-glow flex items-center gap-2 bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-500 hover:to-purple-600 px-7 py-3 rounded-lg font-semibold shadow-lg shadow-purple-500/50 transform hover:-translate-y-1 group">
+          <a href="https://drive.google.com/file/d/1P4qeF7CpwdOZk9Pxzu0YhqozpelvPax1/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn-glow flex items-center gap-2 bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-500 hover:to-purple-600 px-7 py-3 rounded-lg font-semibold shadow-lg shadow-purple-500/50 transform hover:-translate-y-1 group">
             <ExternalLink size={20} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
             View Resume
           </a>

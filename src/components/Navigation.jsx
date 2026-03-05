@@ -58,7 +58,7 @@ const Navigation = ({ activeSection, setActiveSection, setMobileMenuOpen, mobile
         {/* Desktop Buttons */}
         <div className="hidden md:flex items-center gap-4">
           <a
-            href="https://drive.google.com/file/d/1X86yfwRvwHWI8i0h-SBdp9bUqdAFG9Ib/view?usp=sharing"
+            href="https://drive.google.com/file/d/1P4qeF7CpwdOZk9Pxzu0YhqozpelvPax1/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-glow flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white px-4 py-2 rounded-lg font-semibold transition-all"
