@@ -89,7 +89,7 @@ const Navigation = ({ activeSection, setActiveSection, setMobileMenuOpen, mobile
           <motion.a
             whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(139, 92, 246, 0.5)" }}
             whileTap={{ scale: 0.95 }}
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1P4qeF7CpwdOZk9Pxzu0YhqozpelvPax1/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-gradient-to-r from-primary-500 to-secondary-500 text-white px-5 py-2.5 rounded-full font-medium transition-all"
