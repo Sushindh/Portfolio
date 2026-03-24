@@ -1,5 +1,6 @@
 import React from 'react';
 import { Code, Zap, Wrench, Cloud, Lightbulb } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 const Skills = () => {
   const skillsData = {
@@ -19,13 +20,13 @@ const Skills = () => {
       title: "Tools & Technologies",
       icon: Wrench,
       color: "green",
-      skills: ["Git", "GitHub", "Docker", "MongoDB", "Linux","VS Code", " Microsoft Office Suite (PowerPoint, Excel, Word)"]
+      skills: ["Git", "GitHub", "Docker", "MongoDB", "Linux", "VS Code", "Microsoft Office Suite"]
     },
     cloud: {
       title: "Cloud & DevOps",
       icon: Cloud,
       color: "yellow",
-      skills: ["Prometheus", "Grafana", "Grafana Alloy","Tempo", "Loki", "OpenTelemetry"]
+      skills: ["Prometheus", "Grafana", "Grafana Alloy", "Tempo", "Loki", "OpenTelemetry"]
     },
     soft: {
       title: "Soft Skills",
@@ -38,91 +39,112 @@ const Skills = () => {
   const getColorClasses = (color) => {
     const colors = {
       blue: {
-        bg: "bg-blue-600/10",
+        bg: "bg-blue-500/10",
         text: "text-blue-400",
-        border: "border-blue-500/30",
-        hover: "hover:border-blue-400"
+        border: "border-blue-500/20",
+        glow: "group-hover:shadow-[0_0_15px_rgba(59,130,246,0.3)]"
       },
       purple: {
-        bg: "bg-purple-600/10",
+        bg: "bg-purple-500/10",
         text: "text-purple-400",
-        border: "border-purple-500/30",
-        hover: "hover:border-purple-400"
+        border: "border-purple-500/20",
+        glow: "group-hover:shadow-[0_0_15px_rgba(168,85,247,0.3)]"
       },
       green: {
-        bg: "bg-green-600/10",
+        bg: "bg-green-500/10",
         text: "text-green-400",
-        border: "border-green-500/30",
-        hover: "hover:border-green-400"
+        border: "border-green-500/20",
+        glow: "group-hover:shadow-[0_0_15px_rgba(34,197,94,0.3)]"
       },
       yellow: {
-        bg: "bg-yellow-600/10",
+        bg: "bg-yellow-500/10",
         text: "text-yellow-400",
-        border: "border-yellow-500/30",
-        hover: "hover:border-yellow-400"
+        border: "border-yellow-500/20",
+        glow: "group-hover:shadow-[0_0_15px_rgba(234,179,8,0.3)]"
       },
       pink: {
-        bg: "bg-pink-600/10",
+        bg: "bg-pink-500/10",
         text: "text-pink-400",
-        border: "border-pink-500/30",
-        hover: "hover:border-pink-400"
+        border: "border-pink-500/20",
+        glow: "group-hover:shadow-[0_0_15px_rgba(236,72,153,0.3)]"
       }
     };
     return colors[color];
   };
 
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: { staggerChildren: 0.1 }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { y: 20, opacity: 0 },
+    visible: {
+      y: 0, opacity: 1,
+      transition: { duration: 0.5, ease: "easeOut" }
+    }
+  };
+
   return (
-    <section id="skills" className="py-32 px-4 bg-gray-950/30">
-      <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+    <section id="skills" className="py-32 px-4 relative">
+      <div className="max-w-7xl mx-auto">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.7 }}
+          className="text-center mb-16"
+        >
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 font-heading text-gradient inline-block">
             Skills & Expertise
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full"></div>
-        </div>
-        
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="w-24 h-1.5 bg-gradient-to-r from-primary-500 to-secondary-500 mx-auto rounded-full shadow-[0_0_15px_rgba(139,92,246,0.5)]"></div>
+        </motion.div>
+
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-50px" }}
+          className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6"
+        >
           {Object.entries(skillsData).map(([key, skillGroup], index) => {
             const IconComponent = skillGroup.icon;
-            const colorClasses = getColorClasses(skillGroup.color);
-            
+            const colors = getColorClasses(skillGroup.color);
+
             return (
-              <div
+              <motion.div
+                variants={itemVariants}
                 key={key}
-                className="skill-group card-glow bg-gray-800/20 p-6 rounded-xl border border-gray-700/50 backdrop-blur-sm hover:border-blue-500/50 transition-all"
-                style={{
-                  animationDelay: `${index * 0.1}s`
-                }}
+                className="bg-dark-card border border-dark-border p-6 rounded-2xl backdrop-blur-xl group hover:border-white/20 transition-all duration-300 hover:-translate-y-2 hover:shadow-glass relative overflow-hidden flex flex-col h-full"
               >
-                <div className={`${colorClasses.bg} w-12 h-12 rounded-lg flex items-center justify-center mb-4`}>
-                  <IconComponent size={24} className={colorClasses.text} />
+                <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-white/5 to-transparent rounded-bl-full -mr-12 -mt-12 transition-colors duration-500 group-hover:from-white/10"></div>
+
+                <div className={`${colors.bg} w-14 h-14 rounded-xl flex items-center justify-center mb-6 border ${colors.border} ${colors.glow} transition-all duration-300 relative z-10`}>
+                  <IconComponent size={28} className={colors.text} />
                 </div>
-                
-                <h3 className={`text-lg font-bold mb-4 ${colorClasses.text}`}>
+
+                <h3 className="text-xl font-bold text-white font-heading mb-4 relative z-10">
                   {skillGroup.title}
                 </h3>
-                
-                <div className="space-y-2">
+
+                <div className="flex flex-wrap gap-2 relative z-10 mt-auto">
                   {skillGroup.skills.map((skill, skillIndex) => (
-                    <div
+                    <span
                       key={skillIndex}
-                      className={`skill-badge ${colorClasses.bg} ${colorClasses.text} px-4 py-2 rounded-lg text-sm border ${colorClasses.border} ${colorClasses.hover} transition-all`}
+                      className={`text-sm font-medium px-3 py-1.5 rounded-lg border ${colors.border} bg-white/5 text-gray-300 hover:text-white transition-colors cursor-default`}
                     >
                       {skill}
-                    </div>
+                    </span>
                   ))}
                 </div>
-              </div>
+              </motion.div>
             );
           })}
-        </div>
-
-        {/* <div className="mt-16 p-8 bg-gradient-to-r from-blue-600/10 to-purple-600/10 rounded-xl border border-blue-500/30 backdrop-blur-sm">
-          <h3 className="text-2xl font-bold text-white mb-4">Always Learning</h3>
-          <p className="text-gray-300">
-            I'm passionate about staying at the forefront of technology. Currently exploring MLOps and Full Stack Development
-          </p>
-        </div> */}
+        </motion.div>
       </div>
     </section>
   );
