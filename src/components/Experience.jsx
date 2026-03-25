@@ -19,7 +19,7 @@ const Experience = () => {
     {
       title: "DevOps Intern",
       company: "C-DAC, Chennai",
-      date: "May 2025 - July 2025",
+      date: "May 2025 - June 2025",
       location: "Chennai, Tamil Nadu",
       icon: "bg-secondary-500/20 text-secondary-400 border-secondary-500/30",
       features: [
