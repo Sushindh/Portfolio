@@ -4,32 +4,41 @@ import { motion } from 'framer-motion';
 
 const Experience = () => {
   const experiences = [
-    {
-      title: "Project Intern",
-      company: "Samsung PRISM (Samsung R&D Institute India)",
-      date: "July 2025 – Present",
-      location: "Remote",
-      icon: "bg-primary-500/20 text-primary-400 border-primary-500/30",
-      features: [
-        "Developing an AI-powered Intelligent Chatbot for LSM/USM platforms using LLMs, Retrieval Augmented Generation (RAG) and intelligent automation techniques.",
-        "Collaborating with cross-functional teams to design scalable chatbot workflows, analyze user interaction patterns and document architectural decisions.",
-        "Successfully integrated client–server pipelines with a RAG-based LLM model, enabling more accurate and context-aware responses by leveraging Co-Pilot and modern AI engineering practices.",
-      ]
-    },
-    {
-      title: "DevOps Intern",
-      company: "C-DAC, Chennai",
-      date: "May 2025 - June 2025",
-      location: "Chennai, Tamil Nadu",
-      icon: "bg-secondary-500/20 text-secondary-400 border-secondary-500/30",
-      features: [
-        "Implemented observability and monitoring for containerized applications using Docker, enhancing system reliability.",
-        "Utilized Prometheus, Grafana, and Loki to collect and visualize metrics, improving performance analysis.",
-        "Integrated OpenTelemetry for distributed tracing, enabling end-to-end monitoring solutions.",
-        "Gained hands-on experience in building resilient infrastructure aligned with DevOps best practices."
-      ]
-    },
-  ];
+  {
+    title: "Intern - Technology & Transformation",
+    company: "Deloitte India",
+    date: "June 2026 – Present",
+    location: "Bengaluru, Karnataka",
+    icon: "bg-primary-500/20 text-primary-400 border-primary-500/30",
+    features: [
+      "Developing an AI-powered Learning Intelligence Platform using React, TypeScript, FastAPI, Python, and PostgreSQL for employee learning and skill analytics.",
+      "Implemented JWT/OTP authentication, Role-Based Access Control (RBAC), session management, REST APIs, and PostgreSQL integration.",
+      "Built a context-aware LLM chatbot using Ollama (Qwen3:8b) with enterprise data retrieval, manager–employee context generation, and prompt grounding."
+    ]
+  },
+  {
+    title: "Project Intern",
+    company: "Samsung PRISM (Samsung R&D Institute India)",
+    date: "July 2025 – November 2025",
+    location: "Remote",
+    icon: "bg-secondary-500/20 text-secondary-400 border-secondary-500/30",
+    features: [
+      "Developed an LLM-powered chatbot using RAG for LSM/USM platforms, enabling context-aware question answering and intelligent information retrieval.",
+      "Designed and integrated end-to-end RAG pipelines with API development, prompt engineering, and context orchestration in a client-server architecture."
+    ]
+  },
+  {
+    title: "DevOps Intern",
+    company: "C-DAC, Chennai",
+    date: "May 2025 – June 2025",
+    location: "Chennai, Tamil Nadu",
+    icon: "bg-secondary-500/20 text-secondary-400 border-secondary-500/30",
+    features: [
+      "Engineered a DevOps observability pipeline for containerized microservices using Docker, OpenTelemetry, and the Grafana Alloy stack (Loki, Tempo, Prometheus), integrated into CI/CD workflows for continuous monitoring.",
+      "Implemented real-time distributed tracing and telemetry for fault-tolerant systems, reducing debugging time and supporting scalable, production-grade DevOps practices."
+    ]
+  },
+];
 
   const containerVariants = {
     hidden: { opacity: 0 },
