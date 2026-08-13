@@ -11,9 +11,10 @@ const Experience = () => {
     location: "Bengaluru, Karnataka",
     icon: "bg-primary-500/20 text-primary-400 border-primary-500/30",
     features: [
-      "Developing an AI-powered Learning Intelligence Platform using React, TypeScript, FastAPI, Python, and PostgreSQL for employee learning and skill analytics.",
-      "Implemented JWT/OTP authentication, Role-Based Access Control (RBAC), session management, REST APIs, and PostgreSQL integration.",
-      "Built a context-aware LLM chatbot using Ollama (Qwen3:8b) with enterprise data retrieval, manager–employee context generation, and prompt grounding."
+      "Developed and integrated REST APIs using FastAPI and Python for enterprise application workflows and data processing.",
+      "Designed PostgreSQL database integrations for structured data storage, retrieval and application workflows.",
+      "Implemented JWT/OTP authentication, role-based access control and session management to support secure application access.",
+      "Built a context-aware LLM chatbot using Ollama (Qwen3:8b), implementing enterprise data retrieval, context generation and prompt grounding."
     ]
   },
   {
