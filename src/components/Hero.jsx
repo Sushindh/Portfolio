@@ -118,7 +118,7 @@ const Hero = () => {
             <motion.a
               whileHover={{ scale: 1.1, translateY: -5 }}
               whileTap={{ scale: 0.95 }}
-              href="https://drive.google.com/file/d/1P4qeF7CpwdOZk9Pxzu0YhqozpelvPax1/view?usp=sharing"
+              href="https://drive.google.com/file/d/1BfhI_lo7Xvx0Yzd2bRdn7XMp8rjo6K5Q/view?usp=sharing"
               target="_blank" rel="noopener noreferrer"
               className="flex items-center justify-center w-14 h-14 bg-white/5 border border-white/10 hover:border-white/20 hover:bg-white/10 rounded-full text-white backdrop-blur-md transition-all group"
               aria-label="Resume"

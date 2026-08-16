@@ -89,7 +89,7 @@ const Navigation = ({ activeSection, setActiveSection, setMobileMenuOpen, mobile
           <motion.a
             whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(139, 92, 246, 0.5)" }}
             whileTap={{ scale: 0.95 }}
-            href="https://drive.google.com/file/d/1P4qeF7CpwdOZk9Pxzu0YhqozpelvPax1/view?usp=sharing"
+            href="https://drive.google.com/file/d/1BfhI_lo7Xvx0Yzd2bRdn7XMp8rjo6K5Q/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-gradient-to-r from-primary-500 to-secondary-500 text-white px-5 py-2.5 rounded-full font-medium transition-all"
@@ -146,7 +146,7 @@ const Navigation = ({ activeSection, setActiveSection, setMobileMenuOpen, mobile
               <div className="h-px bg-white/10 my-2" />
               <motion.a
                 whileTap={{ scale: 0.98 }}
-                href="https://drive.google.com/file/d/1P4qeF7CpwdOZk9Pxzu0YhqozpelvPax1/view?usp=sharing"
+                href="https://drive.google.com/file/d/1BfhI_lo7Xvx0Yzd2bRdn7XMp8rjo6K5Q/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 bg-gradient-to-r from-primary-500 to-secondary-500 text-white px-4 py-3 rounded-xl font-medium"
