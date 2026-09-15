@@ -102,7 +102,7 @@ const About = () => {
                 <p className="text-lg font-bold text-gray-200">Bachelor of Technology - Computer Science</p>
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                   <p className="text-secondary-400 font-medium tracking-wide">Vellore Institute of Technology, Chennai</p>
-                  <span className="inline-block px-3 py-1 bg-white/10 rounded-lg text-xs font-semibold text-white tracking-wider">CGPA: 8.89</span>
+                  <span className="inline-block px-3 py-1 bg-white/10 rounded-lg text-xs font-semibold text-white tracking-wider">CGPA: 8.90</span>
                 </div>
                 <p className="text-gray-500 text-sm font-medium">Aug 2023 - July 2027</p>
               </div>
