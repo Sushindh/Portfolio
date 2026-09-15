@@ -61,10 +61,11 @@ const Hero = () => {
           </motion.h1>
 
           <motion.div variants={itemVariants} className="flex flex-col items-center gap-4 mb-8">
-            <h2 className="text-xl md:text-3xl text-gray-300 font-medium font-heading">
-              Software Engineer & <span className="text-white">Full-Stack Developer</span>
+            <h2 className="text-xl md:text-3xl text-gray-300 font-medium font-heading text-white">
+              Software Engineer 
             </h2>
             <div className="flex flex-wrap justify-center gap-3 text-sm md:text-base font-medium">
+              <span className="px-4 py-1.5 bg-white/5 border border-white/10 rounded-full backdrop-blur-md text-gray-200">Ex-Intern @ Deloitte</span>
               <span className="px-4 py-1.5 bg-white/5 border border-white/10 rounded-full backdrop-blur-md text-gray-200">Ex-Intern @ C-DAC</span>
               <span className="px-4 py-1.5 bg-white/5 border border-white/10 rounded-full backdrop-blur-md text-gray-200">Intern @ Samsung PRISM</span>
               <span className="px-4 py-1.5 bg-white/5 border border-white/10 rounded-full backdrop-blur-md text-gray-200">B.Tech CSE '27</span>
@@ -76,7 +77,7 @@ const Hero = () => {
             className="text-base md:text-lg lg:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed font-light"
           >
             Passionate about creating impactful solutions with modern web technologies.
-            Currently exploring AI/ML, Cloud native architectures, and building scalable systems.
+            Currently exploring Backend Engineering and AI security.
           </motion.p>
         </div>
 
@@ -108,7 +109,7 @@ const Hero = () => {
             <motion.a
               whileHover={{ scale: 1.1, translateY: -5 }}
               whileTap={{ scale: 0.95 }}
-              href="https://linkedin.com/in/sushindh-a-7281a1288"
+              href="https://www.linkedin.com/in/sushindh-anandan/"
               target="_blank" rel="noopener noreferrer"
               className="flex items-center justify-center w-14 h-14 bg-white/5 border border-white/10 hover:border-white/20 hover:bg-white/10 rounded-full text-white backdrop-blur-md transition-all group"
               aria-label="LinkedIn"

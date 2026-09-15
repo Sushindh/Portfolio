@@ -55,7 +55,7 @@ const About = () => {
               My journey spans <span className="text-primary-400 font-medium">full-stack development</span>, DevOps practices, and observability engineering. I've worked hands-on with cutting-edge technologies during my internship at C-DAC, where I built monitoring solutions and conducted technical sessions.
             </motion.p>
             <motion.p variants={itemVariants} className="text-lg md:text-xl text-gray-300 leading-relaxed font-light">
-              I'm passionate about building scalable systems, exploring <span className="text-secondary-400 font-medium">AI/ML</span>, Cloud Computing and contributing to projects that make a difference. Whether it's debugging a tricky error or diving into a new framework, I enjoy breaking complex problems into simple, effective solutions.
+              I'm passionate about building scalable systems, exploring <span className="text-secondary-400 font-medium">AI Security</span>, Backend Engineering and contributing to projects that make a difference. Whether it's debugging a tricky error or diving into a new framework, I enjoy breaking complex problems into simple, effective solutions.
             </motion.p>
 
             <motion.div variants={itemVariants} className="flex flex-wrap gap-3 mt-10">
